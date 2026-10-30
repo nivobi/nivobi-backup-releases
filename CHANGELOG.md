@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0
+- Partial restore: restore only the database, chosen plugins or themes, media or the rest of wp-content from a backup (Restore page > Choose parts, or wp wpbk import --parts / --plugins / --themes)
+- A partial media restore puts back files from the backup and keeps uploads made since then
+- The safety snapshot and rollback of a partial restore cover only what it replaces
+
 ## 0.4.4
 - Updates now show up even when the site cannot reach wordpress.org at that moment.
 
