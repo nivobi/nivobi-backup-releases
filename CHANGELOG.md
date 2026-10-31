@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.0
+Emergency restore page (on by default, can be turned off in Settings): when WordPress shows a white screen or you cannot log in, open wp-content/plugins/wpbk/emergency.php. Unlock it by creating the file it names in wp-content over FTP, then switch plugins off, move must-use plugins and drop-ins aside, undo an update or restore a backup.
+Settings shows the page's address; the Overview shows when it was last used.
+
 ## 0.6.0
 Backup before updates (off by default, turn on under Settings): before a plugin or theme update, WPBK saves its old folder, and the database when it fits in a few seconds. Never blocks an update.
 "Undo this update" on the Backups page puts the old version back, optionally with the database.
