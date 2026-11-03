@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.0
+- Renamed to Nivobi Backup & Migration (folder nivobi-backup). Backups are now .nivobi files and the WP-CLI command is wp nivobi. Builds named WPBK (0.8.0 and older) cannot update to this one: delete the old plugin and install this zip.
+- Prepared for wordpress.org: Plugin Check clean, readme.txt, a build without the GitHub updater.
+
 ## 0.8.0
 - Restore onto an empty server: download wpbk-installer.php from Restore & move, upload it with a backup to the new host's empty folder, open it and follow the steps. It installs WordPress (checked file by file against wordpress.org), writes wp-config.php, installs WPBK, restores the backup and removes itself.
 - Unlocking the installer needs proof of file access, like the emergency page; it refuses a folder that already holds a site.
